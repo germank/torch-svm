@@ -12,7 +12,7 @@ ADD_SUBDIRECTORY(libsvm)
 
 SET(utilsrc init.c data.c util.c)
 ADD_LIBRARY(svmutil SHARED ${utilsrc})
-TARGET_LINK_LIBRARIES(svmutil lua luaT TH)
+TARGET_LINK_LIBRARIES(svmutil lua5.1 luaT TH)
 INSTALL(TARGETS svmutil LIBRARY DESTINATION ${Torch_INSTALL_LUA_CPATH_SUBDIR})
 
 SET(src)
