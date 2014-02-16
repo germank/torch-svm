@@ -1,4 +1,4 @@
-package = "torch-svm"
+package = "torchsvm"
 version = "scm-1"
 
 source = {
