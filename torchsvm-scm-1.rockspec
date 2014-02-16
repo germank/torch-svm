@@ -2,7 +2,7 @@ package = "torch-svm"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/germank/torch-svm.git",
+   url = "git://github.com/germank/torch-svm.git"
 }
 
 description = {
